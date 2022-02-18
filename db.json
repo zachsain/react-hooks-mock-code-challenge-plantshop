@@ -41,6 +41,12 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Snickers",
+      "image": "https://www.bluey.tv/wp-content/uploads/2020/07/Bandit-Chilli.jpg",
+      "price": 65,
+      "id": 8
     }
   ]
 }
