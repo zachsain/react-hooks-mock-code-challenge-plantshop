@@ -31,11 +31,15 @@ function PlantPage() {
   }
 
   function handleSearch(searchValue){
-    const filteredPlants = plants.filter(plant => {
-      return plant.description.toLowerCase().includes(searchValue.toLowerCase())
+
+    const newArray = plants.filter(plants => {
+      return plants.name.toLowerCase().includes(searchValue.toLowerCase())
     })
+    // const filteredPlants = plants.filter(plants => {
+    //   return plants.description.toLowerCase().includes(searchValue.toLowerCase())
+    // })
     
-    setPlants(filteredPlants)
+    setPlants(newArray)
   }
 
   return (
